@@ -55,10 +55,10 @@
     'sheep-green-jeep':['Why did the green jeep stop?','What was stuck near the wheel?','How did the chicks free it?','What did the sheep do to thank the chicks?'],
     'star-red-cart':['Where did the star land?','Name two places the rolling cart passed.','How did the star affect the dark barn and the cat?','What did Kaira keep after the star left?'],
     'light-night-ship':['Why did the ship become dark?','How did Kiki’s lamp help the crew?','What new problem did the gull cause?','What did the crew give Kiki, and why?'],
-    'kiki-quick-picnic':['What unexpected thing was inside Kiki’s basket?','How did the trail of crumbs solve the problem?','Why did Kiki shut the gate before checking the basket?','What does the duck’s final quack suggest it wanted?'],
-    'brown-owl-town':['Where did Kaira’s crown land first?','Trace the crown from the window ledge back to Kaira.','Why was the owl useful during the chase?','Why was the ending funny?'],
-    'coin-noisy-pond':['What was blocking the frog’s drain?','Why did Kiki and the frog need a second plan?','What might have happened if the drain stayed blocked?','Why was friendship worth more than keeping the coin?'],
-    'stormy-morning-market':['What did Kaira and Dad sort before the storm?','How did Kaira and the shopkeeper capture the cloth?','What shows that Kaira made a sensible plan?','Which detail made the ending surprising or funny?']
+    'kiki-quick-picnic':['What unexpected thing was inside Kiki and Anvi’s basket?','How did Anvi’s trail of crumbs solve the problem?','Why did Kiki shut the gate before they checked the basket?','What does the duck’s final quack suggest it wanted?'],
+    'brown-owl-town':['Where did Prisha’s crown land first?','Trace the crown from the window ledge back to Prisha.','Why was the owl useful during the chase?','Why was the ending funny?'],
+    'coin-noisy-pond':['What was blocking the frog’s drain?','Why did Aashvi and the frog need a second plan?','What might have happened if the drain stayed blocked?','Why was friendship worth more than keeping the coin?'],
+    'stormy-morning-market':['What did Kaira and Sashvi sort before the storm?','How did the two friends capture the cloth?','What shows that Kaira and Sashvi worked as a team?','Which detail made the ending surprising or funny?']
   };
   const key='kaira-reader-finished-books-v2',historyKey='kaira-reader-history-v3';let active=null,page=0;
   function readHistory(){try{const saved=JSON.parse(localStorage.getItem(historyKey)||'{}');if(Object.keys(saved).length)return saved;const old=JSON.parse(localStorage.getItem(key)||'[]');return Object.fromEntries(old.map(slug=>[slug,{date:null}]))}catch{return{}}}
