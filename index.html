@@ -131,7 +131,9 @@
     'kaira-long-string-song':['What were Kaira and Sashvi hanging in the garden?','How did they free the tangled string from the gong?','Why did Kaira sing slow beats while Sashvi pulled?','How did the pigeon change their finished song?'],
     'anvi-round-mouse-house':['What did Anvi and Aashvi build for the mouse?','How did the girls rescue the house after the cloudburst?','Why did they move the house onto a high mound?','Do you think the cloud-shaped hat could guard the house? Explain.'],
     'prisha-rain-chain-garden':['What was the rain chain meant to do?','How did Prisha and Kiki stop the pail and rescue the seed packets?','Why did Kiki use the chain like a net?','Why was the sunflower wearing the pail a funny ending?'],
-    'sashvi-foil-coin-prints':['What were Sashvi and Aashvi making for the art fair?','How did they collect and repair the scattered foil coins?','Why did Aashvi lift the coin from the soil carefully?','What else could the girls print with their coin stamps?']
+    'sashvi-foil-coin-prints':['What were Sashvi and Aashvi making for the art fair?','How did they collect and repair the scattered foil coins?','Why did Aashvi lift the coin from the soil carefully?','What else could the girls print with their coin stamps?'],
+    "kiki-thin-thread-tent":["What was Kiki preparing inside the thin thread tent?","How did Kiki lead the real moth away from the fallen tent?","Why did the moth follow the second thread toward the thistle?","How did the cloth-star hat make the ending funny?"],
+    "aashvi-fair-chair-repair":["Who needed the blue chair at the fair?","What happened after the gust spun the chair down the stair?","Why did Aashvi ask the fair carpenter for help?","What else could Aashvi build with the spare wood?"]
   };
   const compactToday={
     'kiki-red-pack':[0,1,2,3,4,5,7,10,11],
@@ -288,6 +290,264 @@
     circles:['cir + cles','Read two beats, then tap to hear and check.'],
     banner:['ban + ner','Read two beats: ban, ner.']
   });
+  Object.assign(wordHelp,{
+  "stretched": [
+    "stretch + ed",
+    "Read stretch, then add the t sound for “ed”."
+  ],
+  "thread": [
+    "th + r + ea + d",
+    "Keep “th” together; “ea” sounds like short e here."
+  ],
+  "across": [
+    "a + cross",
+    "Read two beats: a, cross."
+  ],
+  "puppet": [
+    "pup + pet",
+    "Read two clear beats: pup, pet."
+  ],
+  "three": [
+    "th + r + ee",
+    "Keep “th” together and let “ee” say its long sound."
+  ],
+  "cloth": [
+    "c + l + o + th",
+    "Blend cl first and keep “th” together at the end."
+  ],
+  "placed": [
+    "place + d",
+    "Read place, then add the d sound."
+  ],
+  "beneath": [
+    "be + neath",
+    "Read two beats; “ea” sounds like long e in the second beat."
+  ],
+  "grabbed": [
+    "grab + bed",
+    "Read grab, then add the d sound for “ed”."
+  ],
+  "flew": [
+    "f + l + ew",
+    "Blend fl first; “ew” says the long oo sound here."
+  ],
+  "through": [
+    "th + rough",
+    "Keep “th” together; this unusual word sounds like “throo”."
+  ],
+  "folded": [
+    "fold + ed",
+    "Read fold, then add the extra ed beat."
+  ],
+  "dropped": [
+    "drop + ped",
+    "Read drop, then add the t sound for “ed”."
+  ],
+  "together": [
+    "to + geth + er",
+    "Read three beats and keep “th” together in the middle."
+  ],
+  "threw": [
+    "th + r + ew",
+    "Keep “th” together; “ew” says the long oo sound."
+  ],
+  "slipped": [
+    "slip + ped",
+    "Blend sl first; the “ed” ending sounds like t."
+  ],
+  "underneath": [
+    "un + der + neath",
+    "Read three beats; “ea” sounds like long e at the end."
+  ],
+  "thought": [
+    "th + ough + t",
+    "Keep “th” together; “ough” has the vowel sound in thought."
+  ],
+  "another": [
+    "a + noth + er",
+    "Read three beats and keep “th” together in the middle."
+  ],
+  "beside": [
+    "be + side",
+    "Read two beats: be, side."
+  ],
+  "thorny": [
+    "thorn + y",
+    "Keep “th” together, then add the final y sound."
+  ],
+  "followed": [
+    "fol + lowed",
+    "Read two beats; the “ed” ending sounds like d."
+  ],
+  "settled": [
+    "set + tled",
+    "Read two beats: set, tled."
+  ],
+  "thick": [
+    "th + i + ck",
+    "Keep “th” and “ck” as sound teams."
+  ],
+  "thistle": [
+    "this + tle",
+    "Read two beats; the t in the second beat is very light."
+  ],
+  "fresh": [
+    "f + r + e + sh",
+    "Blend fr first and keep “sh” together."
+  ],
+  "lengths": [
+    "length + s",
+    "Read length first, then add s; keep “ng” together."
+  ],
+  "watched": [
+    "watch + ed",
+    "Read watch, then add the t sound for “ed”."
+  ],
+  "wearing": [
+    "wear + ing",
+    "Read wear, then add ing."
+  ],
+  "carried": [
+    "car + ried",
+    "Read two beats: car, ried."
+  ],
+  "chair": [
+    "ch + air",
+    "Keep “ch” together and let “air” make one sound."
+  ],
+  "fair": [
+    "f + air",
+    "Keep “air” together as one sound."
+  ],
+  "pair": [
+    "p + air",
+    "Keep “air” together as one sound."
+  ],
+  "rabbits": [
+    "rab + bits",
+    "Read two beats: rab, bits."
+  ],
+  "waited": [
+    "wait + ed",
+    "Keep “ai” together; here “ed” adds an extra beat."
+  ],
+  "while": [
+    "wh + i_e + l",
+    "Keep “wh” together and use the split long-i pattern."
+  ],
+  "checked": [
+    "check + ed",
+    "Read check, then add the t sound for “ed”."
+  ],
+  "sudden": [
+    "sud + den",
+    "Read two beats: sud, den."
+  ],
+  "stair": [
+    "st + air",
+    "Blend st first and keep “air” together."
+  ],
+  "pear": [
+    "p + ear",
+    "Here “ear” makes the same sound as “air”."
+  ],
+  "wooden": [
+    "wood + en",
+    "Read two beats; “oo” has its short sound in wood."
+  ],
+  "cracked": [
+    "crack + ed",
+    "Blend cr first; the “ed” ending sounds like t."
+  ],
+  "spare": [
+    "sp + air",
+    "Blend sp first; the final e is quiet."
+  ],
+  "tied": [
+    "tie + d",
+    "Read tie, then add the d sound."
+  ],
+  "hair": [
+    "h + air",
+    "Keep “air” together as one sound."
+  ],
+  "ribbons": [
+    "rib + bons",
+    "Read two beats: rib, bons."
+  ],
+  "repair": [
+    "re + p + air",
+    "Read re first, then p plus the “air” sound."
+  ],
+  "again": [
+    "a + gain",
+    "Read two beats; the second beat sounds like gen."
+  ],
+  "climbed": [
+    "climb + ed",
+    "The b is quiet; read climb, then add the d sound."
+  ],
+  "carpenter": [
+    "car + pen + ter",
+    "Read three beats: car, pen, ter."
+  ],
+  "repaired": [
+    "re + p + air + ed",
+    "Keep “air” together, then add the d sound."
+  ],
+  "strong": [
+    "str + o + ng",
+    "Blend str first and keep “ng” together."
+  ],
+  "braces": [
+    "br + a_e + ces",
+    "Blend br first; the split a-e pattern says its long sound."
+  ],
+  "shared": [
+    "sh + air + ed",
+    "Keep “sh” and “air” together; add the d sound."
+  ],
+  "thin": [
+    "th + i + n",
+    "Keep “th” together, then add i and n."
+  ],
+  "moth": [
+    "m + o + th",
+    "Keep “th” together at the end."
+  ],
+  "stars": [
+    "st + ar + s",
+    "Blend st first, keep “ar” together, then add s."
+  ],
+  "roof": [
+    "r + oo + f",
+    "Keep “oo” together for its long sound."
+  ],
+  "bush": [
+    "b + u + sh",
+    "Keep “sh” together; the vowel has the sound in bush."
+  ],
+  "blue": [
+    "b + l + ue",
+    "Blend bl first; “ue” says the long oo sound."
+  ],
+  "there": [
+    "th + ere",
+    "Keep “th” together; this is an irregular word, so listen and remember it."
+  ],
+  "wood": [
+    "w + oo + d",
+    "Keep “oo” together; it has the short sound in wood."
+  ],
+  "rabbit": [
+    "rab + bit",
+    "Read two beats: rab, bit."
+  ],
+  "asked": [
+    "ask + ed",
+    "Read ask, then add the t sound for “ed”."
+  ]
+});
   const vocabularyMeanings={
     above:'Higher than something else.',after:'Later than something or following it.',again:'One more time.',along:'Moving beside or following the length of something.',around:'On different sides of something, or in a circle.',avoided:'Stayed away from something.',basket:'A container used to carry things.',before:'Earlier than something else.',beside:'Next to or at the side of something.',bright:'Giving lots of light, or full of strong colour.',brought:'Carried something to a place.',bubbled:'Made little balls of air or gas in liquid.',busy:'Having lots to do, or full of activity.',carefully:'In a way that tries not to make a mistake or cause harm.',carried:'Held something while taking it somewhere.',caught:'Stopped and held something that was moving.',chase:'To run after someone or something.',checked:'Looked carefully to make sure something was right.',clicked:'Made a short, sharp sound.',cloth:'A piece of material made from woven threads.',coin:'A small, flat piece of money made from metal.',cord:'A thick string used for tying or holding things.',corner:'The place where two sides or edges meet.',crowd:'A large group of people together.',crown:'A special headpiece worn by a king or queen.',crumbs:'Very small pieces of bread or food.',dark:'Having very little or no light.',drain:'A pipe or hole that carries water away.',early:'Before the usual or expected time.',explained:'Made something easier to understand by describing it.',field:'A large open area of land.',flash:'A sudden, quick burst of light.',floated:'Stayed on top of water or moved gently through air.',fountain:'A place where water is pushed up into the air.',friend:'Someone you like, trust, and enjoy being with.',fruit:'The part of a plant that often contains seeds and can be eaten.',gained:'Got or received something useful.',guarded:'Kept something safe by watching or protecting it.',harder:'More difficult, or needing more effort.',heard:'Noticed a sound with your ears.',helped:'Made something easier for another person.',hurried:'Moved or acted quickly because there was little time.',landed:'Came down onto the ground or another surface.',ledge:'A narrow, flat shelf that sticks out from a wall or rock.',market:'A place where people buy and sell things.',morning:'The first part of the day, before noon.',narrow:'Not wide; having only a small distance from side to side.',noise:'A sound, especially one that is loud or noticeable.',offered:'Said that someone could have or use something.',opened:'Moved something so that it was no longer closed.',packed:'Put things together into a bag, box, or container.',picnic:'A meal eaten outdoors.',pointed:'Having a sharp end, or showed where something was.',proud:'Feeling pleased about something done well.',quacked:'Made the sound of a duck.',reached:'Arrived at a place or stretched far enough to touch something.',roared:'Made a very loud, deep sound.',scarf:'A long piece of cloth worn around the neck or head.',seed:'The small part of a plant from which a new plant can grow.',shade:'A darker, cooler place away from direct light.',sharp:'Having a thin edge or point that can cut or prick.',shone:'Gave out light.',soared:'Flew or rose very high in the air.',spoil:'To damage something or make it no longer good.',spotted:'Saw or noticed something.',steep:'Rising or falling very sharply, like a difficult hill.',storm:'Weather with strong wind, rain, thunder, or lightning.',strange:'Unusual or unfamiliar.',street:'A road in a town or city, usually with buildings beside it.',striped:'Having long lines of different colours.',swept:'Moved quickly and smoothly, or cleaned with a broom.',swooped:'Flew down quickly in a curved movement.',track:'A path, trail, or line that can be followed.',through:'Going in one side and out the other side.',together:'With one another or as a group.',upright:'Straight up, not leaning or lying down.',voice:'The sound a person or animal makes when speaking or calling.',waddled:'Walked with short steps while rocking from side to side.',watered:'Gave water to a plant.',wheel:'A round part that turns and helps something move.',whole:'All of something; complete, with no part missing.',window:'An opening with glass that lets light into a building.',
     balanced:'Kept something steady so it did not fall.',beach:'Land covered with sand or stones beside the sea.',bounced:'Moved up again after hitting a surface.',breeze:'A light, gentle wind.',bridge:'A structure that lets people cross over water or a gap.',broken:'Damaged so that it cannot work properly.',chair:'A seat for one person, usually with a back.',cheeky:'Playfully rude or mischievous.',clever:'Quick to understand or good at solving problems.',clockwork:'A set of small moving parts that makes a toy or clock work.',cloud:'A white or grey group of tiny water drops in the sky.',cloudberry:'An imaginary berry from a cloud in this story.',couch:'A long, soft seat for more than one person.',crossed:'Went from one side to the other.',fair:'A fun event with games, rides, stalls, or shows.',fairground:'The place where a fair is held.',feather:'One of the light coverings on a bird.',fern:'A green plant with long, divided leaves.',flipper:'A wide, flat limb that helps a sea animal swim.',fluttered:'Moved lightly and quickly through the air.',halfway:'At the middle point between two places.',helper:'Someone who helps another person.',lair:'A place where a wild animal rests or lives.',ladder:'A tool with steps used for climbing up or down.',meal:'Food eaten at one time.',peach:'A round, soft fruit with fuzzy skin and a stone inside.',polished:'Rubbed something until it became clean and shiny.',quiet:'Making very little or no sound.',recovered:'Found or got something back.',repaired:'Fixed something that was damaged.',river:'A large natural stream of flowing water.',rope:'A strong, thick cord used for pulling or tying.',screech:'A sharp, high sound.',seaweed:'A plant-like living thing that grows in the sea.',shivered:'Shook slightly because of cold, fear, or excitement.',silver:'A shiny grey colour, or a valuable metal.',slope:'Ground that goes upward or downward.',splash:'Liquid scattering in drops after something hits it.',splashed:'Made water or another liquid scatter in drops.',stone:'A small piece of hard rock.',thunderclap:'A sudden, very loud sound of thunder.',tray:'A flat container used for carrying or holding things.',wrote:'Made words or marks using a pen or pencil.'
@@ -345,6 +605,18 @@
     rejoined:'Joined or connected something again.',
     banner:'A long piece of material used for a sign or decoration.'
   });
+  Object.assign(vocabularyMeanings,{
+  "stretched": "Pulled something so it became longer or tighter.",
+  "puppet": "A toy figure moved by a hand, strings, or sticks.",
+  "beneath": "Under or lower than something else.",
+  "folded": "Bent one part over another part.",
+  "thistle": "A plant with sharp leaves and often a purple flower.",
+  "lengths": "Measured pieces from one end to the other.",
+  "ribbons": "Long, narrow strips of cloth used for tying or decorating.",
+  "repair": "Work that fixes something damaged or broken.",
+  "carpenter": "A person who makes or repairs things using wood.",
+  "braces": "Strong pieces added to hold or support something."
+});
   const key='kaira-reader-finished-books-v2',historyKey='kaira-reader-history-v3',vocabSeenKey='kaira-reader-vocabulary-seen-v1';let active=null,page=0,activeHelp='',lastHelpButton=null;
   function readHistory(){try{const saved=JSON.parse(localStorage.getItem(historyKey)||'{}');if(Object.keys(saved).length)return saved;const old=JSON.parse(localStorage.getItem(key)||'[]');return Object.fromEntries(old.map(slug=>[slug,{date:null}]))}catch{return{}}}
   function finished(){return Object.keys(readHistory())}
